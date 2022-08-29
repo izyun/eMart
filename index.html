@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">  
+    <title> 이지현-이마트 </title>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="./js/jquery-1.11.3.js"></script>
+    <script src="./js/jquery.innerfade.js"></script>
+    <script src="./js/script.js"></script>
+</head>
+
+<body>
+    <div id="wrap">
+        <!-- header+section+footer -->
+        <header>
+            <h1 class="logo">
+                <a href="#"><img src="./images/logo.svg" alt="로고"></a>
+            </h1>
+            <div class="menu">
+                <!-- ul>li*4>a{점포찾기} -->
+                <ul>
+                    <li><a href="#">자주구매</a></li>
+                    <li><a href="#">세일중</a></li>
+                    <li><a href="#">베스트</a></li>
+                    <li><a href="#">기획전</a></li>
+                    <li><a href="#">이벤트&쿠폰</a></li>
+                </ul>
+            </div>
+        </header>
+        <section>
+            <!-- slide -->
+            <div class="slide">
+                <ul class="inner-fade">
+                    <li><a href="#"><img src="./images/01.jpg" alt="01"></a></li>
+                    <li><a href="#"><img src="./images/02.jpg" alt="02"></a></li>
+                    <li><a href="#"><img src="./images/03.jpg" alt="03"></a></li>
+                    <li><a href="#"><img src="./images/04.jpg" alt="04"></a></li>
+                    <li><a href="#"><img src="./images/05.jpg" alt="05"></a></li>
+                </ul>
+            </div>
+            <!-- btn 7ea -->
+            <!-- .btn>ul>li.btn$*7>a+span{쿠폰} -->
+            <div class="btn">
+                <ul>
+                    <li class="btn1"><a href="#"></a><span>쿠폰</span></li>
+                    <li class="btn2"><a href="#"></a><span>서비스</span></li>
+                    <li class="btn3"><a href="#"></a><span>베스트</span></li>
+                    <li class="btn4"><a href="#"></a><span>기획전</span></li>
+                    <li class="btn5"><a href="#"></a><span>채용정보</span></li>
+                    <li class="btn6"><a href="#"></a><span>오시는길</span></li>
+                    <li class="btn7"><a href="#"></a><span>보안센터</span></li>
+                </ul>
+            </div>
+
+            <!-- contents - 공지사항,배너 -->
+            <!-- .contents>.notice+.banner -->
+            <div class="contents">
+                <!-- 공지사항 -->
+                <div class="notice">
+                    <p ><a href="#" class="more">더보기</a>  </p>
+                    <h2>공지사항</h2>
+                    <!-- ul>li*5>a{[추석이벤트]이마트 딱 일주일!! HOT한 기획전...........}+span{22-08-23} -->
+                    <ul>
+                        <li class="layerPopup"><span class="title"> [추석이벤트] </span> <a href="#">레이어팝업-추석사전매장 (3차) D-2.......</a><span>22-08-23</span></li>
+                        <li><span class="title"> [추석이벤트] </span> <a href="#">이마트 딱 일주일!! HOT한 기획전 지금
+                                참여하세요........</a><span>22-08-23</span></li>
+                        <li><span class="title"> [추석이벤트] </span> <a href="#">런칭특가 할인 신상품을 확인하세요........</a><span>22-08-23</span></li>
+                        <li><span class="title"> [추석이벤트] </span> <a href="#">쓱 배송시간 확인하기!!!
+                               </a><span>22-08-23</span></li>
+                        <li><span class="title"> [추석이벤트] </span> <a href="#">추석 인기상품 40% 할인 마감임박!!!!!........</a><span>22-08-23</span></li>
+                        <li><span class="title"> [추석이벤트] </span> <a href="#">명절 GIFT 카달로그 받아가세요. 간편 웹 서비스........</a><span>22-08-23</span></li>
+                        <li><span class="title"> [추석이벤트] </span> <a href="#">구매 금액의 1% SSG 머니 증정.......</a><span>22-08-23</span></li>
+
+                    </ul>
+                </div>
+                <!-- 배너 -->
+                <div class="banner">
+                    <h2 class="blind">배너</h2>
+                    <a href="#"><img src="./images/banner.png" alt="22년 추석 사전매장 OPEN"></a>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <!-- .blogo+.copyright+.sns -->
+            <div class="blogo">
+                <!-- a>img -->
+                <a href="#"><img src="./images/blogo.svg" alt="하단로고"></a>
+            </div>
+            <div class="copyright">
+                <p>
+                    서울특별시 강남구 테헤란로 231 사업자등록번호: 870-88-01143 <br />
+                    Copyright © <a href="mailto:ssg@ssg.com"> SSG </a> All rights reserved.
+                </p>
+            </div>
+            <div class="sns">
+                <!-- ul>li*5>a>img -->
+                <ul>
+                    <li><a href="#"><img src="./images/sns/f.png" alt="페이스북"></a></li>
+                    <li><a href="#"><img src="./images/sns/p.png" alt="핀터레스트"></a></li>
+                    <li><a href="#"><img src="./images/sns/i.png" alt="인스타그램"></a></li>
+                    <li><a href="#"><img src="./images/sns/t.png" alt="트위터"></a></li>
+                    <li><a href="#"><img src="./images/sns/s.png" alt="카카오스토리"></a></li>
+                </ul>
+            </div>
+        </footer>
+        
+        <!-- 레이어팝업 -->
+        <!-- #popup>.close{X} -->
+        <div id="popup">
+            <div class="close">X</div>
+        </div>
+    </div>
+</body>
+</html>
